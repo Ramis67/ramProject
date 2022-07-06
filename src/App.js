@@ -20,6 +20,7 @@ function App() {
           <Route path="Currency" element={<Currency />}/>
         </Route>
       </Routes>
+      <div>Text</div>
     </>
   )
 }
