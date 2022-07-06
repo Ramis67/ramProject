@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ramProject/static/css/main.e7d1764e.css",
-    "main.js": "/ramProject/static/js/main.ffac63fa.js",
+    "main.js": "/ramProject/static/js/main.0c622b94.js",
     "static/media/ruble.gif": "/ramProject/static/media/ruble.531f4895decca74542d8.gif",
     "index.html": "/ramProject/index.html",
     "main.e7d1764e.css.map": "/ramProject/static/css/main.e7d1764e.css.map",
-    "main.ffac63fa.js.map": "/ramProject/static/js/main.ffac63fa.js.map"
+    "main.0c622b94.js.map": "/ramProject/static/js/main.0c622b94.js.map"
   },
   "entrypoints": [
     "static/css/main.e7d1764e.css",
-    "static/js/main.ffac63fa.js"
+    "static/js/main.0c622b94.js"
   ]
 }
