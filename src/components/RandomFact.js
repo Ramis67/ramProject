@@ -12,7 +12,7 @@ export default function RandomFact(props){
     const { get } = useFetchRandomFact();
 
   function handleFactClick(){
-      get(`https://numbersapi.com/random/date`)
+      get(`http://numbersapi.com/random/date`)
       .then(data => {
       if (data){
         setFact(data)
