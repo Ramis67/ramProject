@@ -8,13 +8,13 @@ import Wrapper from "../StyledComponents/Wrapper.js";
 export default function RandomFact(props){
     const [fact, setFact] = useState([]);
     
-
     const { get } = useFetchRandomFact();
 
   function handleFactClick(){
-      get(`http://numbersapi.com/random/date`)
+      get(`https://api.chucknorris.io/jokes/random`)
       .then(data => {
       if (data){
+        console.log(Object.entries(data))
         setFact(data)
       }
       })
@@ -24,7 +24,16 @@ export default function RandomFact(props){
     return (
         <>
           <Wrapper fact>
-            <Paragraph>{fact}</Paragraph>
+            {Object.entries(fact).map((item) => {if(item[0] === 'value'){
+              return(
+                <>
+                  {
+                    <Paragraph>{item[1]}</Paragraph>
+                  }
+                </>
+              )
+            }
+            })}
             <Button randomfact onClick={handleFactClick}>Показать</Button>
           </Wrapper>
         </>

@@ -20,7 +20,7 @@ function Layout(){
                         <Button onClick={() => navigate(`/`)}>На главную</Button>
                         <Button onClick={() => navigate(`/ToDoList`)}>ToDo List</Button>
                         <Button onClick={() => navigate(`/Counter`)}>Секундомер</Button>
-                        <Button onClick={() => navigate(`/RandomFact`)}>Рандомный факт</Button>
+                        <Button onClick={() => navigate(`/RandomFact`)}>Chuck Norris факт</Button>
                         <Button onClick={() => navigate(`/Currency`)}>Стоимость валют</Button>
                     </Wrapper>
                     <Outlet />

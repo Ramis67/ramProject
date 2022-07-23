@@ -26,7 +26,7 @@ const StyledWrapper = styled.div`
     `};
     ${props => props.textarea && css
         `
-        height:4rem;
+        height:100%;
         background:white;
         align-items: flex-start;
         margin-top:1rem;
@@ -38,6 +38,7 @@ const StyledWrapper = styled.div`
         background:white;
         margin-top:2rem;
         height:100%;
+        width:100%;
     `};
     ${props => props.currency && css
         `

@@ -9,7 +9,6 @@ import Button from "../StyledComponents/Button.js";
 import Heading from "../StyledComponents/Heading.js";
 
 export default function Form(props){
-    let navigate = useNavigate();
 
     return(
         <>
