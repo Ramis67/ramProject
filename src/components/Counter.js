@@ -44,9 +44,9 @@ export default function Counter(){
       <>
         <Wrapper timer>
           <Wrapper timernumbers>
-            <Title timer>{minute}</Title>
+            <Title timer>{minute >= 10 ? minute : '0' + minute}</Title>
             <Title timerspacer>:</Title>
-            <Title timer>{second}</Title>
+            <Title timer>{second >=10 ? second : '0' + second}</Title>
           </Wrapper>
           <Wrapper timerbuttons>
             <Button timerbuttons onClick={handleStartClick}>start</Button>

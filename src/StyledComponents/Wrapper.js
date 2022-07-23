@@ -17,7 +17,7 @@ const StyledWrapper = styled.div`
         `
         background:white;
         flex-direction:column;
-        height:20rem;
+        height:15%;
     `};
     ${props => props.input && css
         `

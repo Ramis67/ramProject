@@ -24,17 +24,17 @@ export default function RandomFact(props){
     return (
         <>
           <Wrapper fact>
+            <Button randomfact onClick={handleFactClick}>Показать</Button>
             {Object.entries(fact).map((item) => {if(item[0] === 'value'){
               return(
                 <>
                   {
-                    <Paragraph>{item[1]}</Paragraph>
+                      <Paragraph>{item[1]}</Paragraph>
                   }
                 </>
               )
             }
             })}
-            <Button randomfact onClick={handleFactClick}>Показать</Button>
           </Wrapper>
         </>
     )

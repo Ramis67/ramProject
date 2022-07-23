@@ -11,12 +11,12 @@ const StyledTitle = styled.h1`
     font-size: 3.5rem;
     color:#72C8E6;
     font-weight: normal;
+    width:4rem;
   `};
   ${props => props.timerspacer && css
     `
     font-size: 3.5rem;
     color:#72C8E6;
-    margin-left:0.5rem;
     margin-right:0.5rem;
   `};
 `;

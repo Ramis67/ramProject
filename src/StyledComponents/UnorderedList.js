@@ -14,14 +14,14 @@ const StyledUnorderedList = styled.ul`
     ${props => props.currency && css
         `
         width:50%;
-        margin-left:0;
-        margin-top:0.5rem;
+        margin:0;
+        padding-top:1rem;
         justify-content:space-around;
         align-items:center;
         flex-wrap:nowrap;
         height:10%;
-        margin-bottom:1rem;
-
+        padding-bottom:1rem;
+        
         &:hover{
             background-color: #2C664D;
             border-radius: 0.2rem;
